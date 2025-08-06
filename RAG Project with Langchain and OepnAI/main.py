@@ -107,6 +107,8 @@ async def query(query_input: QueryInput):
     insert_application_log(session_id, query_input.question, answer, query_input.model.value)
     return QueryResponse(answer=answer, session_id=session_id, model=query_input.model)
 
+
+
 if __name__ == "__main__":
     uvicorn.run(
         "main:app",      # points to the app instance

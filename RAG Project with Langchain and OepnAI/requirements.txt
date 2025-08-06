@@ -13,3 +13,4 @@ python-multipart==0.0.20
 beautifulsoup4==4.13.4
 docx2txt
 pypdf
+streamlit==1.48.0
