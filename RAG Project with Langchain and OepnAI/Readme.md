@@ -18,17 +18,3 @@
 > streamlit run frontend.py
 
 
-
-### Project Structure
-
-├── api/                      # Backend utilities
-│   ├── utils/
-│   │   ├── db_util.py
-│   │   ├── chroma_util.py
-│   │   ├── langchain_util.py
-│   └── models/
-│       └── pydantic_models.py
-├── main.py                    # FastAPI backend
-├── frontend.py                # Streamlit chat frontend
-├── requirements.txt
-└── README.md
